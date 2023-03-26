@@ -1,0 +1,17 @@
+.employee-list {
+    list-style-type: none;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+  }
+  
+  .employee-item {
+    padding: 5px 10px;
+    cursor: pointer;
+    color: #cccccc;
+  }
+  
+  .employee-item.highlight {
+    background-color: #2b537d;
+    color: white;
+  }
+  

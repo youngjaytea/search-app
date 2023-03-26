@@ -1,0 +1,12 @@
+<ul class="employee-list">
+    <li
+      *ngFor="let employee of filteredEmployees; let i = index"
+      class="employee-item"
+      [class.highlight]="hoverIndex === i"
+      (mouseover)="hoverIndex = i"
+      (mouseleave)="hoverIndex = -1"
+    >
+      {{ employee.name }}
+    </li>
+  </ul>
+  
